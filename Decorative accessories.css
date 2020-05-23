@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+			/*背景图片*/
+			body{
+				background:url(img/005.jpg);
+				background-size: 100%;
+				}
+			/*导航栏样式*/
+			.navbar{
+				float: center;
+				display: block;
+				color: #000;
+				text-align: center;
+				padding: 14px 20px;
+				text-decoration: none;
+				border: 0px solid;
+				font-family: KaiTi;
+				}
+			.navbar a{
+				display: inline-block;
+				width: auto;
+				background-color: #B6B282;
+				text-align: center;
+				padding: 0px;
+				font-size: 30px;
+				margin: 0px 5px 0px 5px;
+				text-decoration: none;
+				color: #000;
+				}
+			.naver a:link {
+				color:#000000;
+				}      /* 未访问链接*/
+			.naver a:visited {
+				color:#626262;
+				}  /* 已访问链接 */
+			/*鼠标移动到链接上的样式*/
+			.navbar a:hover{
+				background-color: #5E5E5E;
+				}
+			.naver a:hover,a:active {
+				color:#0000FF;
+				}  /* 鼠标点击时 */
+			/*表格样式*/
+			table{
+				border-collapse: collapse;
+				font-size: 20px;
+				width: 100%;
+				font-family: KaiTi;
+				margin-left:80px; /*左外边距*/
+				margin-right:80px; /*右外边距*/
+				}
+			td{
+				border: 1px solid;
+				}
+			/*主要的内容区域*/
+			.main{
+				font-family: KaiTi;
+				margin-left:80px; /*左外边距*/
+				margin-right:80px; /*右外边距*/
+				margin-bottom: auto;/*下外边距*/
+				letter-spacing: 1px; /*字间距*/
+				word-spacing: 2px; 
+				line-height: 1.5em; /*行高*/
+				text-align: justify;
+				text-indent:2em;
+				color:#000
+				}
+			/*翻页设置*/
+			.page{
+				padding: 20px;
+				text-align: center;
+				font-size: 20px;
+				text-decoration: none;
+				color: #000
+				}
+			/*相关链接区域*/
+			/*修改了字体样式以及点击效果*/
+			.section{
+				font-family: KaiTi;
+				padding: 20px;
+				margin-left: 80px;
+				color: #10455A;
+				font-size: 20px;
+			}
+			.section a{
+				display: inline-block;
+			}
+			.section a:hover{
+				background: #E7C84F;
+			}
+/*			制作下拉菜单备用注释*/
+/*
+			ul.tabs{
+				display: table;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				position: relative;
+			}
+
+			ul.tabs li{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: table-cell;
+				float: left;
+				position: relative;
+			}
+
+			ul.tabs a{
+				position: relative;
+				display: block;
+			}
+			ul.dropdown{
+				margin: 0;
+				padding: 0;
+				display: block;
+				position: absolute;
+				z-index: 999;
+				top: 100%;
+				width: 250px;
+				display: none;
+				left: 0;
+			}
+
+			ul.dropdown ul.dropdown{
+				top: 0;
+				left: 95%;
+			}
+			ul.dropdown li{
+				margin: 0;
+				padding: 0;
+				float: none;
+				position: relative;
+				list-style: none;
+				display: block;
+			}
+
+			ul.dropdown li a{
+				display: block;
+			} 
+*/
+

@@ -1,0 +1,125 @@
+	body {
+				font-size: 100%;
+				font-family: KaiTi;
+				padding-bottom: 1em;
+				background-image:url(img/登录界面背景图.jpg);
+				background-size: cover;
+				background-attachment: fixed
+				}
+			/*汉家衣裳网站名居中*/
+			h1{
+				font-family:"楷体";
+				letter-spacing: normal;
+				font-weight:bold;
+				text-align:center;
+			}
+			/*标题的小图标盒子*/
+			.tip{
+				margin-left:120px;
+				height:60px;
+				}
+				/*tip图标大小*/
+			.tippicture{
+				width:25px;
+				height:25px;
+				float:left;
+				}
+				/*tip文字字体设置*/
+			#title{
+				font-family:"宋体";	
+				}
+			a:link{color:#000; text-decoration: none}　　/*设置未访问时的超链接样式*/
+			a:hover{color:#5D9D65; text-decoration: none}　　/*设置鼠标移动到链接上的样式　*/
+            /*二级标题设置*/
+			h2 {
+				font-family: KaiTi;
+				border-bottom: 1px solid #D3C75B;
+				border-top: 1px solid #D3C75B;
+				border-radius: 5px;
+				box-shadow: 3px 3px 3px #ccc; /*边框的阴影效果*/
+				color: #fff;
+				font-size: 1em;
+				margin: 12px;
+				padding: 0.5em 1em;
+				text-align: center;
+			}
+			/*用户登录/注册的背景颜色*/
+			.account {
+				background-color:#728A3D; 
+			}
+			/*关于表单的设置*/
+			fieldset {
+				border: none;/*无边框*/
+				border-radius: 2px;
+				margin-top: 100px;
+				padding-left: 550px;
+				padding-right: 700px;
+				
+			}
+
+			.fields {
+				border: 1px solid #eaeaea;
+				margin: .75em;
+				padding: .75em;
+			}
+
+			.fields .row {
+				margin: 0.5em 0;
+			}
+			/*标签设置*/
+			label {
+				cursor: pointer; /*光标：指针*/
+				display: inline-block;
+				padding: 3px 6px;
+				text-align: right;
+				width: 150px;
+				vertical-align: top;
+			}
+             /*html5新增验证功能*/
+			.required { /* the asterisk */
+				color: red;
+				display: none;
+			}
+
+			.field-small {
+				width: 75px;
+			}
+
+			.field-medium {
+				width: 150px;
+			}
+
+			.field-large {
+				width: 250px;
+			}
+
+			/*创建提交按钮的相关设置*/
+			.btn {
+				background-color:#DAE6B6;
+				border: none;
+				border-radius: 4px;
+				margin-left: 200px;
+				padding: 8px;
+			}
+
+			.btn-reset {
+				background-color:#B4D58C;
+				color: #eee;
+				margin-left: 35px;
+			}
+					
+			/*页脚颜色样式*/
+			
+			footer{
+				background-color:#9F983F;
+				clear:both;
+				text-align:center;
+				margin-bottom:0;
+				margin-top:450px;
+				}
+			
+/*
+			button * {
+				vertical-align: middle;
+			}
+*/

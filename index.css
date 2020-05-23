@@ -1,0 +1,95 @@
+	/*背景图片*/
+			body{
+				background:url(img/登录界面背景图.jpg);
+				background-size: 100%;
+				background-size: cover;
+				background-attachment: fixed
+				}
+			/*汉家衣裳网站名居中*/
+			h1{
+				font-family:"楷体";
+				letter-spacing: normal;
+				font-weight:bold;
+				text-align:center;
+			}
+			/*导航栏样式*/
+			.navbar{
+				float: center;
+				display: block;
+				color: #000;
+				text-align: center;
+				padding: 14px 20px;
+				text-decoration: none;
+				border: 0px solid;
+				font-family: KaiTi;
+				}
+			.navbar a{
+				display: inline-block;
+				width: auto;
+				background-color: #B6B282;
+				text-align: center;
+				padding: 0px;
+				font-size: 30px;
+				margin: 0px 5px 0px 5px;
+				text-decoration: none;
+				color: #000;
+				}
+			.navbar a:hover{
+				background-color: #5E5E5E;
+				}
+			a:link{text-decoration: none}　　/*设置未访问时的超链接样式*/
+			a:hover{color:#5D9D65; text-decoration: none}　　/*设置鼠标移动到链接上的样式　*/
+				/*中间滚轮图片背景图*/
+			.background{
+				width:900px;
+				height:400px;
+				margin-left: 200px;
+				background: url("img/背景图.jpg");
+				}
+				/*标题的小图标盒子*/
+			.tip{
+				margin-left:120px;
+				height:60px;
+				}
+				/*tip图标大小*/
+			.tippicture{
+				width:25px;
+				height:25px;
+				float:left;
+				}
+				/*返回登录界面*/
+			  .button {
+				float:right;
+				background-color:#B4D58C;
+				border:none;
+				color:white;
+				padding: 12px 12px;
+				margin-right:60px;
+				text-align: center;
+				font-size: 16px;
+				cursor: pointer;
+				}
+				/*tip文字字体设置*/
+			#title{
+				font-family:"宋体";	
+				}
+			/*主要的内容区域*/
+			.main{
+				font-family: KaiTi;
+				margin-left:80px; /*左外边距*/
+				margin-right:80px; /*右外边距*/
+				margin-bottom: auto;/*下外边距*/
+				letter-spacing: 1px; /*字间距*/
+				word-spacing: 2px; 
+				line-height: 1.5em; /*行高*/
+				text-align: justify;
+				text-indent:2em;
+				color:#000
+				}
+			/*页脚颜色样式*/
+			footer{
+				background-color:#9F983F;
+				clear:both;
+				text-align:center;
+				margin-bottom:0;
+				}
